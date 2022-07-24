@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#toast{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+p{
+    color: #6d6d83;
+}
+.mid-sec{
+    position: relative;
+}
+.carousel-inner p{
+    color: white;
+}
+
+.fa-check{
+    font-size: 12px;
+    background-color: #e3e3e9;
+}
+.other{
+    border-radius: 1.5rem;
+    position: relative;
+    top: -40px;
+    padding-top: 40px;
+}
+.other h2 , .other h3, .other p{
+    color: white;
+}
+.client{
+
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+footer{
+    height: 150px;
+}
+footer p{
+    color: white;
+}
+@media screen and (max-width:662px) {
+    .carousel-inner img{
+        height: 40vh;
+        width: 100vh;
+    }
+    .package{
+        margin-bottom: 20px;
+        padding:20px ;
+    }
+    .other-btn{
+        margin-bottom: 30px;
+    }
+}
